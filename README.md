@@ -24,9 +24,10 @@ git 을 사용하기 위해서는 설치가 필요하다.
 ```
 
 # git clone
-본인의 로컬에 repo를 저장할 경로를 만들고 해당 위치에 git clone 합니다.
+본인의 로컬에 repo를 저장할 경로를 만들고 폴더를 우클릭하고 GitBash here 누른다
+콘솔창에 다음과같이 입력합니다.
 ```bash
-현재위치 C:\mygit 일때
+현재위치 C:\mygit 일때 (복사 붙여넣기는 shift insert 이용합니다)
 $ git clone https://github.com/내id/thinkPython.git
 하면 C:\mygit\thinkPython 디렉토리가 생성되고 내용이 다운받아져서 만들어진다.
 ``` 
