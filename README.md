@@ -32,6 +32,22 @@ $ git clone https://github.com/내id/thinkPython.git
 하면 C:\mygit\thinkPython 디렉토리가 생성되고 내용이 다운받아져서 만들어진다.
 ``` 
 
+# git global setting 하기
+
+크게 중요한 내용은 아니지만 한번은 해야된다.
+
+* 이름 등록하기
+```
+$ git config --global user.name "사용자명"
+ex) $ git config --global user.name "john.oh"
+
+```
+* e-mail 등록하기
+```
+$ git config --global user.email "메일 주소"
+ex) $ git config --global user.email "fransoaardi@gmail.com"
+```
+
 # 본인의 차례때 내용 정리하기
 - 본인의 repository ( github.com/내id/thinkPython ) 의 chapter로 들어갑니다.
 - 파일을 생성하고 내용을 입력합니다. ( 주의 : .md 파일로 만들어야 markdown syntax가 적용됩니다 ) 
